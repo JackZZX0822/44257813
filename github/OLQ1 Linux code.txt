@@ -1,0 +1,10 @@
+  699  curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--triplet-stop.sh
+  700  curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--triplet-stop.sh >triplet-stop.sh
+  702  vi triplet-stop.sh
+  703  ./triplet-stop.sh taasjrhsjyrookstaasdhyhe
+  705  uniq -u tutes.txt
+  709  egrep '^[^ ]+ [^ ]+ [^ ]+$' test.txt
+  713  egrep -e '-[0-9]+' test.txt
+  722  egrep ' -?([0-9]+\.?[0-9]+ )' test.txt
+  723  egrep ' hydrogenase' test.txt
+
