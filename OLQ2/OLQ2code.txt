@@ -1,0 +1,18 @@
+  842  curl https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-11-regex--structure.pdb > structure.pdb
+  878  sed 's/Beisel/Weisel/' structure.pdb
+  845  sed '1,3d' structure.pdb
+  846  less str*pdb
+  847  cat str*pdb
+  848  sed -n '5,10p' structure.pdb
+  849  sed '/Med/d' structure.pdb
+  850  history
+  851  sed '/MET/d' structure.pdb
+  852  sed -n '/HELIX.*ILE/p' structure.pdb
+  853  sed '/^H/s/$/***/' structure.pdb
+  854  sed '/SEQRES/s/^.*$/SEQ/' structure.pdb
+  858  sed '/^$/d' jabberwocky.txt
+  294  scp -i 44257813.pem jabberwocky.txt ubuntu@ec2-13-211-204-185.ap-southeast-2.compute.amazonaws.com:
+  872  cat jab*txt
+  873  sed '/^$/d' jab*txt
+
+
