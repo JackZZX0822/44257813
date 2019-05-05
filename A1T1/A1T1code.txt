@@ -1,0 +1,59 @@
+  307  scp -i 44257813.pem twain.txt ubuntu@ec2-13-211-204-185.ap-southeast-2.compute.amazonaws.com:
+  308  ssh -i 44257813.pem ubuntu@ec2-13-211-204-185.ap-southeast-2.compute.amazonaws.com
+  883  sed -n 's/huck/HucK/p' twain.txt
+  900  vi userargument.py
+  901  cat userargument.py
+  903  python3 userargument.py python
+  904  python3 userargument.py 1234
+  905  python3 userargument.py Bob
+  906  userargument.py Bob
+  907  python3 userargument.py Alice Bob
+  923  vi q4.py
+  926  cat q4.py
+  927  python3 q4.py 1 10
+  928  python3 q4.py 50 100
+  929  python3 q4.py -100 -20
+  931  vi q5.py
+  932  cat q5.py
+  933  python3 q5.py 1 30
+  934  vi q5.py
+  935  cat q5.py
+  936  python3 q5.py 1 30
+  937  vi q5.py
+  938  python3 q5.py 1 30
+  939  vi q5.py
+  940  python3 q5.py 1 30
+  941  python3 q5.py 4 30
+  942  vi q5.py
+  943  python3 q5.py 1 30
+  944  vi q5.py
+  945  python3 q5.py 1 30
+  946  python3 q5.py 4 30
+  947  python3 q5.py 12 30
+  949  vi q5.py
+  950  cat q5.py
+  951  python3 q5.py 3 10
+  952  python3 q5.py 3 30
+  953  python3 q5.py 5 30
+  954  python3 q5.py 7 30
+  955  exit
+  956  vi q6.py
+  957  python3 q6.py 10 1000 0.05
+  958  vi q6.py
+  959  python3 q6.py 10 1000 0.05
+  960  vi q6.py
+  961  python3 q6.py 10 1000 0.05
+  962  vi q6.py
+  963  python3 q6.py 10 1000 0.05
+  964  python3 q6.py 10.0 1000.0 0.05
+  965  vi q6.py
+  966  python3 q6.py 10.0 1000.0 0.05
+  967  vi q6.py
+  968  python3 q6.py 10.0 1000.0 0.05
+  969  vi q6.py
+  970  python3 q6.py 10.0 1000.0 0.05
+  971  python3 q6.py 10 1000 0.05
+  972  python3 q6.py 100 1000 0.1
+  973  cat q6.py
+  974  python3 q6.py 10 1000 0.05
+  975  python3 q6.py 5 20000 0.1
